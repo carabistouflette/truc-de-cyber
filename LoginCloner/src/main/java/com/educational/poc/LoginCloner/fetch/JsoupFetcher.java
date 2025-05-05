@@ -1,4 +1,4 @@
-package main.java.com.educational.poc.LoginCloner.fetch;
+package com.educational.poc.LoginCloner.fetch;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;

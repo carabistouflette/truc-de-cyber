@@ -1,17 +1,17 @@
 package com.educational.poc.LoginCloner;
 
-import main.java.com.educational.poc.LoginCloner.core.Configuration;
-import main.java.com.educational.poc.LoginCloner.core.LoginClonerOrchestrator;
-import main.java.com.educational.poc.LoginCloner.detect.AdvancedFormDetector;
-import main.java.com.educational.poc.LoginCloner.download.UrlConnectionDownloader;
-import main.java.com.educational.poc.LoginCloner.fetch.JsoupFetcher;
-import main.java.com.educational.poc.LoginCloner.parse.JsoupHtmlParser;
-import main.java.com.educational.poc.LoginCloner.parse.RegexCssParser;
-import main.java.com.educational.poc.LoginCloner.server.ConsoleCredentialHandler;
-import main.java.com.educational.poc.LoginCloner.server.SimpleHttpServer;
-import main.java.com.educational.poc.LoginCloner.update.RelativeLinkUpdater;
-import main.java.com.educational.poc.LoginCloner.write.FileWriterDocumentWriter;
-import main.java.com.educational.poc.LoginCloner.write.FilesResourceWriter;
+import com.educational.poc.LoginCloner.core.Configuration;
+import com.educational.poc.LoginCloner.core.LoginClonerOrchestrator;
+import com.educational.poc.LoginCloner.detect.AdvancedFormDetector;
+import com.educational.poc.LoginCloner.download.UrlConnectionDownloader;
+import com.educational.poc.LoginCloner.fetch.JsoupFetcher;
+import com.educational.poc.LoginCloner.parse.JsoupHtmlParser;
+import com.educational.poc.LoginCloner.parse.RegexCssParser;
+import com.educational.poc.LoginCloner.server.ConsoleCredentialHandler;
+import com.educational.poc.LoginCloner.server.SimpleHttpServer;
+import com.educational.poc.LoginCloner.update.RelativeLinkUpdater;
+import com.educational.poc.LoginCloner.write.FileWriterDocumentWriter;
+import com.educational.poc.LoginCloner.write.FilesResourceWriter;
 
 /**
  * Entry point for the LoginCloner application.
@@ -22,7 +22,7 @@ public class App {
     public static void main(String[] args) {
         // Check for correct number of arguments
         if (args.length != 1) {
-            System.out.println("Usage: java -cp <classpath> main.java.com.educational.poc.LoginCloner.App <URL>");
+            System.out.println("Usage: java -cp <classpath> com.educational.poc.LoginCloner.App <URL>");
             // Note: Adjust classpath based on build system (e.g., Maven target/classes)
             return; // Exit if incorrect usage
         }

@@ -1,6 +1,6 @@
-package main.java.com.educational.poc.LoginCloner.write;
+package com.educational.poc.LoginCloner.write;
 
-import main.java.com.educational.poc.LoginCloner.util.DirectoryManager; // Import utility
+import com.educational.poc.LoginCloner.util.DirectoryManager; // Import utility
 import org.jsoup.nodes.Document;
 
 import java.io.FileWriter;

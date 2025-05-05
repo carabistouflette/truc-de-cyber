@@ -1,4 +1,4 @@
-package main.java.com.educational.poc.LoginCloner.detect;
+package com.educational.poc.LoginCloner.detect;
 
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;

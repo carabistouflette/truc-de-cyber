@@ -1,4 +1,4 @@
-package main.java.com.educational.poc.LoginCloner.server;
+package com.educational.poc.LoginCloner.server;
 
 import java.util.Map;
 

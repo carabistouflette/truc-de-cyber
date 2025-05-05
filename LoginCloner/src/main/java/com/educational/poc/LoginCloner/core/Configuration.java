@@ -1,4 +1,4 @@
-package main.java.com.educational.poc.LoginCloner.core;
+package com.educational.poc.LoginCloner.core;
 
 import java.nio.file.Path;
 import java.nio.file.Paths;

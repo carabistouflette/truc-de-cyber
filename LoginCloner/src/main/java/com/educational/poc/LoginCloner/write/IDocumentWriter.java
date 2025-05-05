@@ -1,4 +1,4 @@
-package main.java.com.educational.poc.LoginCloner.write;
+package com.educational.poc.LoginCloner.write;
 
 import org.jsoup.nodes.Document;
 import java.io.IOException;

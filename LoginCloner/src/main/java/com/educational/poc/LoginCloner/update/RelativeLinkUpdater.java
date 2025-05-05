@@ -1,6 +1,6 @@
-package main.java.com.educational.poc.LoginCloner.update;
+package com.educational.poc.LoginCloner.update;
 
-import main.java.com.educational.poc.LoginCloner.util.PathUtils;
+import com.educational.poc.LoginCloner.util.PathUtils;
 import org.jsoup.nodes.Element;
 
 import java.nio.file.Path;

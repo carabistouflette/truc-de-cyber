@@ -1,9 +1,9 @@
-package main.java.com.educational.poc.LoginCloner.server;
+package com.educational.poc.LoginCloner.server;
 
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 import com.sun.net.httpserver.HttpServer;
-import main.java.com.educational.poc.LoginCloner.util.FormDataParser; // Import utility
+import com.educational.poc.LoginCloner.util.FormDataParser; // Import utility
 
 import java.io.BufferedReader;
 import java.io.IOException;

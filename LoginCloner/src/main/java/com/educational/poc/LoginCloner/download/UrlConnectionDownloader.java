@@ -1,6 +1,6 @@
-package main.java.com.educational.poc.LoginCloner.download;
+package com.educational.poc.LoginCloner.download;
 
-import main.java.com.educational.poc.LoginCloner.core.Configuration; // Import configuration
+import com.educational.poc.LoginCloner.core.Configuration; // Import configuration
 
 import java.io.IOException;
 import java.io.InputStream;

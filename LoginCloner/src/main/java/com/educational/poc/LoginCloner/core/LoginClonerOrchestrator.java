@@ -1,16 +1,16 @@
-package main.java.com.educational.poc.LoginCloner.core;
+package com.educational.poc.LoginCloner.core;
 
-import main.java.com.educational.poc.LoginCloner.detect.IFormDetector;
-import main.java.com.educational.poc.LoginCloner.download.IDownloader;
-import main.java.com.educational.poc.LoginCloner.fetch.IFetcher;
-import main.java.com.educational.poc.LoginCloner.parse.ICssParser;
-import main.java.com.educational.poc.LoginCloner.parse.IHtmlParser;
-import main.java.com.educational.poc.LoginCloner.server.IServer;
-import main.java.com.educational.poc.LoginCloner.update.ILinkUpdater;
-import main.java.com.educational.poc.LoginCloner.util.DirectoryManager;
-import main.java.com.educational.poc.LoginCloner.util.PathUtils;
-import main.java.com.educational.poc.LoginCloner.write.IDocumentWriter;
-import main.java.com.educational.poc.LoginCloner.write.IResourceWriter;
+import com.educational.poc.LoginCloner.detect.IFormDetector;
+import com.educational.poc.LoginCloner.download.IDownloader;
+import com.educational.poc.LoginCloner.fetch.IFetcher;
+import com.educational.poc.LoginCloner.parse.ICssParser;
+import com.educational.poc.LoginCloner.parse.IHtmlParser;
+import com.educational.poc.LoginCloner.server.IServer;
+import com.educational.poc.LoginCloner.update.ILinkUpdater;
+import com.educational.poc.LoginCloner.util.DirectoryManager;
+import com.educational.poc.LoginCloner.util.PathUtils;
+import com.educational.poc.LoginCloner.write.IDocumentWriter;
+import com.educational.poc.LoginCloner.write.IResourceWriter;
 
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;

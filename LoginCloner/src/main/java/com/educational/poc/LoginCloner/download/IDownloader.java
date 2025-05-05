@@ -1,4 +1,4 @@
-package main.java.com.educational.poc.LoginCloner.download;
+package com.educational.poc.LoginCloner.download;
 
 import java.io.IOException;
 import java.io.InputStream;

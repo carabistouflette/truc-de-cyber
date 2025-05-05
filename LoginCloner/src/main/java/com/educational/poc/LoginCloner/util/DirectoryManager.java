@@ -1,4 +1,4 @@
-package main.java.com.educational.poc.LoginCloner.util;
+package com.educational.poc.LoginCloner.util;
 
 import java.io.IOException;
 import java.nio.file.Files;
